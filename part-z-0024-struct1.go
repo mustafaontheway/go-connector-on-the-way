@@ -10,7 +10,7 @@ func main() {
 
 		name string
 		university string
-		age uint16
+		age uint8
 	}
 
 	studentAyhan := Student {"Ayhan Bilir", "İstiklal University", 23}
