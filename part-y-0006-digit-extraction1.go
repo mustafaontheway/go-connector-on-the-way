@@ -13,7 +13,7 @@ func main() {
 
 func findDigits(num uint) (uint8, uint8, uint8) {
 
-	if num < 100 {return 0, 0, 0}
+	if num < 100 || num > 999 {return 0, 0, 0}
 
 	ones := num % 10 //795 % 10 -> 5
 	tens := ((num - ones) / 10) % 10 //((795 - 5) / 10) % 10 -> 9
