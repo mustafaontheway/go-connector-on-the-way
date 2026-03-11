@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	a,b,c := findDigits(795)
+	a, b, c := findDigits(795)
 
 	fmt.Println(a, b, c) // 5 9 7
 }
