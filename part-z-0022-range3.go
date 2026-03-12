@@ -16,5 +16,7 @@ func main() {
 	}
 
 	fmt.Println("Average age:", totalAges/ uint(len(ages))) // Average age: 53
+
+	fmt.Println("Average age:", float32(totalAges)/ float32(len(ages))) // Average age: 53.875
 }
 
