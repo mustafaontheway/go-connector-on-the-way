@@ -8,7 +8,7 @@ func main() {
 
 	empAyhan := newEmployee("Ayhan Bilir", "HR", "ab009874", 3400)
 
-	fmt.Println(empAyhan) // {Ayhan Bilir HR ab009874 3400}
+	fmt.Println(empAyhan) // &{Ayhan Bilir HR ab009874 3400}
 }
 
 type Employee struct {
